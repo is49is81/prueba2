@@ -1,0 +1,81 @@
+
+p{
+  color: green;
+  font-size: 18px
+}
+h1 {
+  color: #333
+  font-family: Arial, sans-serif;
+}
+
+#Titulo {color:red;}
+
+contenido { color:red;}
+
+nuevo { color:red;}
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  background-color: #444,inherit;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+ nav ul li a {
+   color: white;
+   text-decoration: none;
+ }
+
+section {
+  padding:20px
+}
+
+p {
+  background-color: white;
+  border: black 1px solid;
+  position: relative;
+  botton: -20px;
+  top: 10px;
+  left: 15px;
+  right: 20px;
+}
+
+h1 {
+  background-color: white;
+  borde: black 1px solid;
+  width: 50%;
+  height: 40px;
+  position: fixed;
+  botton: 10px;
+  top: 10px;
+  right: 10px;
+}
+
+body {
+  background-color: white;
+  background-image: url(CAFE.jpg);
+  background-repeat:no-repeat;  /*(repeat-x) (repeat-y)*/
+  background-attachment: fixed; /* scrooll*/
+  background-position: 50% 50%  /* left | center | right*/
+}
+
+body {
+  background: white url(log.gif) no-repeat fixed 50% 50%
+}
